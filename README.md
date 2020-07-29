@@ -15,14 +15,13 @@ An Application for hosting available rooms at an hotel using React
 * Rooms page which shows results based on query in real time without refreshing or pressing any button to submit the filters
 <br>
 <br>
+
 ![image 1](images/60.png)
 <br>
-<br>
 ![image 1](images/61.png)
-
-<br>
 <br>
 ![image 1](images/62.png)
+
 <br>
 <br>
 * Redirect to error page in case of undefined url entered
