@@ -40,6 +40,7 @@ export default class SingleRoom extends Component {
       pets,
       images,
     } = room;
+    // eslint-disable-next-line no-unused-vars
     const [main, ...defaultImages] = images;
 
     return (

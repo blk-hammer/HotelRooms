@@ -155,6 +155,9 @@ const RoomConsumer = RoomContext.Consumer;
 
 export { RoomProvider, RoomConsumer, RoomContext };
 
+// higher order component (useful for consuming in function based components)
+
+// react useContext hook can also be used as done in roomFilter
 export function withRoomConsumer(Component) {
   return function ConsumerWrapper(props) {
     return (
